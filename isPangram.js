@@ -3,6 +3,7 @@
 // Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
 
 // https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+// https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
 
 function isPangram(string){
     string = string.toLowerCase();
