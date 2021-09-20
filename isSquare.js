@@ -22,5 +22,5 @@
 // https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt
 
 function isSquare(n) {
-    return Math.sqrt(n) % 1 === 0;
-  }
+  return Math.sqrt(n) % 1 === 0;
+}

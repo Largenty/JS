@@ -7,6 +7,6 @@
 // https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/match
 
 function getCount(str) {
-    var vowels = str.match(/[aeiouAEIOU]/gi)
-    return vowels === null ? 0 : vowels.length;
-  }
+  var vowels = str.match(/[aeiouAEIOU]/gi);
+  return vowels === null ? 0 : vowels.length;
+}

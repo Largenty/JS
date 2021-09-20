@@ -2,11 +2,11 @@
 
 // numbers = "1 2 3 4 5 6"
 
-function highAndLow(numbers){
-    const arrayOfNumbers = numbers.split(' ');
-    const max = Math.max(...arrayOfNumbers)
-    const min = Math.min(...arrayOfNumbers)
-    return `${max} ${min}`
-  }
+function highAndLow(numbers) {
+  const arrayOfNumbers = numbers.split(" ");
+  const max = Math.max(...arrayOfNumbers);
+  const min = Math.min(...arrayOfNumbers);
+  return `${max} ${min}`;
+}
 
-  // expect "6 1"
+// expect "6 1"
