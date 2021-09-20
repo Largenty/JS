@@ -3,9 +3,9 @@
 // numbers = "1 2 3 4 5 6"
 
 function highAndLow(numbers){
-    const num = numbers.split(' ');
-    const max = Math.max(...num)
-    const min = Math.min(...num)
+    const arrayOfNumbers = numbers.split(' ');
+    const max = Math.max(...arrayOfNumbers)
+    const min = Math.min(...arrayOfNumbers)
     return `${max} ${min}`
   }
 
