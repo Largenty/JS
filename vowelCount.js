@@ -4,10 +4,9 @@
 
 // The input string will only consist of lower case letters and/or spaces.
 
+// https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/match
+
 function getCount(str) {
-    var vowelsCount = 0;
-    
-    // enter your majic here
-    
-    return vowelsCount;
+    var vowels = str.match(/[aeiouAEIOU]/gi)
+    return vowels === null ? 0 : vowels.length;
   }
